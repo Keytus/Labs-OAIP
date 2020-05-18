@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#ifndef QueueH
+#define QueueH
+struct part
+{
+	int value;
+	part* next;
+	part* prev;
+};
+class Queue
+{
+	part *Head,*Tail;
+	public:
+	Queue():Head(0),Tail(0){}
+	void Add()
+	{
+
+    }
+};
+//---------------------------------------------------------------------------
+#endif

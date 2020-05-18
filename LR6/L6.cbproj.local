@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.602,=C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,=C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.339,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\User\Documents\RAD Studio\Projects\Tree.cpp=C:\Users\User\Desktop\C++\Sem2\LR6\Tree.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.600,C:\Users\User\Desktop\C++\Sem2\LR6\Part.h=C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,=C:\Users\User\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.121,C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.cpp=C:\Users\User\Desktop\C++\Sem2\LR6\NewTree.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\User\Documents\RAD Studio\Projects\Tree.h=C:\Users\User\Desktop\C++\Sem2\LR6\Tree.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp=C:\Users\User\Documents\RAD Studio\Projects\Tree.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,C:\Users\User\Documents\RAD Studio\Projects\Unit1.h=C:\Users\User\Desktop\C++\Sem2\LR6\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.121,C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.h=C:\Users\User\Desktop\C++\Sem2\LR6\NewTree.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,C:\Users\User\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\User\Desktop\C++\Sem2\LR6\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.600,C:\Users\User\Desktop\C++\Sem2\LR6\Part.cpp=C:\Users\User\Desktop\C++\Sem2\LR6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\User\Desktop\C++\Sem2\LR6\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.912,=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.560,C:\Users\User\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\User\Desktop\C++\Sem2\LR6\L6.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\User\Documents\RAD Studio\Projects\Unit2.h=C:\Users\User\Documents\RAD Studio\Projects\Tree.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="L6.cpp"/>
+    <File Path="L6.res"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="Tree.cpp"/>
+    <File Path="Tree.cpp"/>
+    <File Path="Tree.h"/>
+    <File Path="Part.cpp"/>
+    <File Path="Part.cpp"/>
+    <File Path="Part.h"/>
+    <File Path="NewTree.cpp"/>
+    <File Path="NewTree.cpp"/>
+    <File Path="NewTree.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

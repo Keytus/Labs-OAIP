@@ -1,0 +1,157 @@
+//---------------------------------------------------------------------------
+
+#ifndef TreeH
+#define TreeH
+#include "Unit1.h"
+#include "Part.h"
+class Tree
+{
+	public:
+	Part* root;
+	int size;
+	Tree():root(0),size(0){}
+	void Add(Part** current,string text,int key)
+	{
+		if(*current==0)
+		{
+			size++;
+			*current=new Part(text,key);
+		}
+		else
+		{
+
+			if((*current)->key>key)
+			{
+
+				Add(&((*current)->left),text,key);
+			}
+			else
+			{
+				if((*current)->key<key)
+				{
+
+					Add(&((*current)->right),text,key);
+				}
+			}
+		}
+	}
+	void Print(Part* root,TMemo *Memo)
+	{
+		if(root==0)
+		{
+			return;
+		}
+
+		Print(root->left,Memo);
+		UnicodeString as=root->key;
+		as+="-";
+		as+=root->text.c_str();
+		Memo->Lines->Add(as);
+		Print(root->right,Memo);
+	}
+	void Size(TMemo *Memo)
+	{
+		Memo->Lines->Add(size);
+	}
+	void Balancemass(Part* root,int* i,Part** mass)
+	{
+		if(root==0)
+		{
+			return;
+		}
+		Balancemass(root->left,i,mass);
+		mass[*i]=new Part(root->text,root->key);
+		*i=*i+1;
+		Balancemass(root->right,i,mass);
+	}
+	void BalanceTree(Part** current,Part** mass,int sizeofmass)
+	{
+		DeleteTree(current);
+		CentElem(current,mass,sizeofmass,0);
+		for(int i=0;i<sizeofmass;i++)
+		{
+			Add(current,mass[i]->text,mass[i]->key);
+		}
+	}
+	void CentElem(Part** current,Part** mass,int sizeofmass,int startposition)
+	{
+		if(sizeofmass<3)
+		{
+			return;
+		}
+		Add(current,mass[startposition+(sizeofmass/2)]->text,mass[startposition+(sizeofmass/2)]->key);
+		CentElem(&((*current)->left),mass,sizeofmass/2,startposition);
+		CentElem(&((*current)->right),mass,sizeofmass/2,startposition+(sizeofmass/2)+1);
+	}
+	void DeletePart(Part** current,int key)
+	{
+		if((*current)->key==key)
+		{
+			Part* temp=*current;
+			if((*current)->left==0 && (*current)->right)
+			{
+				*current=0;
+				delete temp;
+			}
+			else
+			{
+				if((*current)->left==0)
+				{
+					*current=(*current)->right;
+					delete temp;
+				}
+				else
+				{
+					if((*current)->right==0)
+					{
+						*current=(*current)->left;
+						delete temp;
+					}
+					else
+					{
+						Part* predmaxleft=*current;
+						Part* maxleft=(*current)->left;
+						while(maxleft->right!=0)
+						{
+							predmaxleft=maxleft;
+							maxleft=maxleft->right;
+						}
+						*current=maxleft;
+						predmaxleft->right=maxleft->left;
+						maxleft->right=temp->right;
+						maxleft->left=predmaxleft;
+						delete temp;
+                    }
+                }
+            }
+		}
+		else
+		{
+			if((*current)->key>key)
+			{
+				DeletePart(&((*current)->left),key);
+			}
+			else
+			{
+				if((*current)->key<key)
+				{
+					DeletePart(&((*current)->right),key);
+                }
+            }
+        }
+    }
+	void DeleteTree(Part** current)
+	{
+		if(*current==0)
+		{
+			return;
+		}
+		DeleteTree(&(*current)->left);
+		DeleteTree(&(*current)->right);
+		delete(*current);
+		*current=0;
+		size=0;
+	}
+};
+//---------------------------------------------------------------------------
+#endif

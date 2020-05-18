@@ -1,0 +1,68 @@
+//---------------------------------------------------------------------------
+
+#ifndef TreeH
+#define TreeH
+#include <string>
+#include "Unit1.h"
+using namespace std;
+class Tree
+{
+	class Part
+	{
+		public:
+		string text;
+		int key;
+		unsigned char height;
+		Part* left;
+		Part* right;
+		Part(string t,int k):text(t),key(k),height(1),left(0),right(0){}
+		void GetHeight(unsigned char &height)
+		{
+			 if(left==0 && rigth==0)
+			 {
+				 return
+			 }
+			 if(left!=0)
+			 {
+				 heght++;
+				 this->
+             }
+		}
+	};
+	public:
+	Part* root;
+	Tree():root(0){}
+	void Add(Part** current,string text,int key)
+	{
+		if(*current==0)
+		{
+			*current=new Part(text,key);
+		}
+		else
+		{
+			if((*current)->key>key)
+			{
+				Add(&((*current)->left),text,key);
+			}
+			else
+			{
+				if((*current)->key<key)
+				{
+					Add(&((*current)->right),text,key);
+				}
+			}
+		}
+	}
+	void Print(Part* root,TMemo *Memo)
+	{
+		if(root==0)
+		{
+			return;
+		}
+		Memo->Lines->Add(root->key);
+		Print(root->left,Memo);
+		Print(root->right,Memo);
+	}
+};
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,58 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include"Queue.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+Queue* object=new Queue();
+int i;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	for(i=1;i<6;i++)
+	{
+		object->Add(StrToInt(StringGrid1->Cells[0][i]));
+	}
+}
+
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+	ListBox1->Clear();
+	object->Print(ListBox1);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+	object->RemoveHead();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+	object->Empty(ListBox1);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+	object->RemoveQueue();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	StringGrid1->Cells[0][0] ="Очередь";
+	for(i=1;i<6;i++)
+	{
+		StringGrid1->Cells[0][i] =rand();
+	}
+}
+//---------------------------------------------------------------------------

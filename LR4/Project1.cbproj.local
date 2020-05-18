@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.348,C:\Users\User\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\User\Desktop\C++\Sem2\LR4\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.779,C:\Users\User\Documents\RAD Studio\Projects\Unit2.h=C:\Users\User\Documents\RAD Studio\Projects\List.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.539,C:\Users\User\Documents\RAD Studio\Projects\Stack.h=C:\Users\User\Documents\RAD Studio\Projects\List.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.539,C:\Users\User\Documents\RAD Studio\Projects\Stack.cpp=C:\Users\User\Documents\RAD Studio\Projects\List.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,=C:\Users\User\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.520,=C:\Users\User\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,C:\Users\User\Documents\RAD Studio\Projects\List.h=C:\Users\User\Desktop\C++\Sem2\LR4\List.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,C:\Users\User\Documents\RAD Studio\Projects\List.h=C:\Users\User\Documents\RAD Studio\Projects\Stack.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.779,C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp=C:\Users\User\Documents\RAD Studio\Projects\List.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.118,=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,C:\Users\User\Documents\RAD Studio\Projects\List.cpp=C:\Users\User\Desktop\C++\Sem2\LR4\List.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.539,=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.165,C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\User\Desktop\C++\Sem2\LR4\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.165,C:\Users\User\Documents\RAD Studio\Projects\Unit1.h=C:\Users\User\Desktop\C++\Sem2\LR4\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.451,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,C:\Users\User\Documents\RAD Studio\Projects\List.cpp=C:\Users\User\Documents\RAD Studio\Projects\Stack.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.165,C:\Users\User\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\User\Desktop\C++\Sem2\LR4\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1.res"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="List.cpp"/>
+    <File Path="List.cpp"/>
+    <File Path="List.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

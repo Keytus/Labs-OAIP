@@ -1,0 +1,77 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include "Tree.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+Tree* tree=new Tree();
+int i,col,sizeofmass;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	StringGrid1->Cells[0][0]="Ф.И.О";
+	StringGrid1->Cells[0][1]="Претпр Ава Укуау";
+	StringGrid1->Cells[0][2]="Ипавт Виа Шьиа";
+	StringGrid1->Cells[0][3]="Мваии ваи чсм";
+	StringGrid1->Cells[0][4]="вапвап";
+	StringGrid1->Cells[0][5]="рыпарыа";
+	StringGrid1->Cells[0][6]="параыр";
+	StringGrid1->Cells[0][7]="аераымі";
+	StringGrid1->Cells[1][0]="Ключ";
+	for(i=1;i<8;i++)
+	{
+		StringGrid1->Cells[1][i]=rand()%100;
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	for(i=1;i<8;i++)
+	{
+		tree->Add(&(tree->root),AnsiString(StringGrid1->Cells[0][i]).c_str(),StrToInt(StringGrid1->Cells[1][i]));
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+    Memo1->Clear();
+	tree->Print(tree->root,Memo1);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+	Part **mass=new Part*[tree->size];
+	sizeofmass=tree->size;
+	col=0;
+	tree->Balancemass(tree->root,&col,mass);
+	tree->BalanceTree(&(tree->root),mass,sizeofmass);
+	for(i=0;i<sizeofmass;i++)
+	{
+		delete(mass[i]);
+	}
+	delete(mass);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+	tree->Add(&(tree->root),AnsiString(Edit1->Text).c_str(),StrToInt(Edit2->Text));
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+	tree->DeletePart(&(tree->root),StrToInt(Edit3->Text));
+}
+//---------------------------------------------------------------------------
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020.05.14 11:19:19.544,=C:\Users\User\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>2020.05.14 11:19:19.563,=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020.05.14 11:29:05.852,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 11:30:35.935,C:\Users\User\Documents\RAD Studio\Projects\Stack.h=C:\Users\User\Documents\RAD Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2020.05.14 11:30:35.935,C:\Users\User\Documents\RAD Studio\Projects\Stack.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 14:17:41.979,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 14:18:14.355,C:\Users\User\Documents\RAD Studio\Projects\HashTable.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 14:18:14.355,C:\Users\User\Documents\RAD Studio\Projects\HashTable.h=C:\Users\User\Documents\RAD Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2020.05.14 15:52:41.037,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 15:52:49.997,C:\Users\User\Documents\RAD Studio\Projects\Node.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 15:52:49.997,C:\Users\User\Documents\RAD Studio\Projects\Node.h=C:\Users\User\Documents\RAD Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2020.05.14 21:26:55.069,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 21:27:28.050,C:\Users\User\Documents\RAD Studio\Projects\TaskHashTable.h=C:\Users\User\Documents\RAD Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2020.05.14 21:27:28.050,C:\Users\User\Documents\RAD Studio\Projects\TaskHashTable.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:32.698,C:\Users\User\Desktop\C++\Sem2\LR7\Unit1.h=C:\Users\User\Documents\RAD Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020.05.14 23:44:32.698,C:\Users\User\Desktop\C++\Sem2\LR7\Unit1.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:32.698,C:\Users\User\Desktop\C++\Sem2\LR7\Unit1.dfm=C:\Users\User\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020.05.14 23:44:35.078,C:\Users\User\Desktop\C++\Sem2\LR7\TaskHashTable.cpp=C:\Users\User\Documents\RAD Studio\Projects\TaskHashTable.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:35.078,C:\Users\User\Desktop\C++\Sem2\LR7\TaskHashTable.h=C:\Users\User\Documents\RAD Studio\Projects\TaskHashTable.h</Transaction>
+    <Transaction>2020.05.14 23:44:36.484,C:\Users\User\Desktop\C++\Sem2\LR7\Stack.cpp=C:\Users\User\Documents\RAD Studio\Projects\Stack.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:36.484,C:\Users\User\Desktop\C++\Sem2\LR7\Stack.h=C:\Users\User\Documents\RAD Studio\Projects\Stack.h</Transaction>
+    <Transaction>2020.05.14 23:44:38.188,C:\Users\User\Desktop\C++\Sem2\LR7\HashTable.h=C:\Users\User\Documents\RAD Studio\Projects\HashTable.h</Transaction>
+    <Transaction>2020.05.14 23:44:38.188,C:\Users\User\Desktop\C++\Sem2\LR7\HashTable.cpp=C:\Users\User\Documents\RAD Studio\Projects\HashTable.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:40.324,C:\Users\User\Desktop\C++\Sem2\LR7\Node.h=C:\Users\User\Documents\RAD Studio\Projects\Node.h</Transaction>
+    <Transaction>2020.05.14 23:44:40.324,C:\Users\User\Desktop\C++\Sem2\LR7\Node.cpp=C:\Users\User\Documents\RAD Studio\Projects\Node.cpp</Transaction>
+    <Transaction>2020.05.14 23:44:50.283,C:\Users\User\Desktop\C++\Sem2\LR7\L7.cbproj=C:\Users\User\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

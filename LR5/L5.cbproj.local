@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.302,C:\Users\User\Desktop\C++\Sem2\LR5\L5.cbproj=C:\Users\User\Desktop\C++\Sem2\LR5\5.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,=C:\Users\User\Desktop\C++\Sem2\LR5\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.449,=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,C:\Users\User\Desktop\C++\Sem2\LR5\List.h=C:\Users\User\Desktop\C++\Sem2\LR5\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,C:\Users\User\Desktop\C++\Sem2\LR5\Queue.h=C:\Users\User\Documents\RAD Studio\Projects\Queue.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,C:\Users\User\Desktop\C++\Sem2\LR5\Unit1.h=C:\Users\User\Documents\RAD Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.829,=C:\Users\User\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.686,C:\Users\User\Desktop\C++\Sem2\LR5\Unit6.h=C:\Users\User\Desktop\C++\Sem2\LR5\Part.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,C:\Users\User\Desktop\C++\Sem2\LR5\List.cpp=C:\Users\User\Desktop\C++\Sem2\LR5\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.850,=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.520,C:\Users\User\Desktop\C++\Sem2\LR5\5.cbproj=C:\Users\User\Desktop\C++\Sem2\LR5\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.686,C:\Users\User\Desktop\C++\Sem2\LR5\Unit6.cpp=C:\Users\User\Desktop\C++\Sem2\LR5\Part.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.943,C:\Users\User\Documents\RAD Studio\Projects\Queue.h=C:\Users\User\Documents\RAD Studio\Projects\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,C:\Users\User\Desktop\C++\Sem2\LR5\Queue.cpp=C:\Users\User\Documents\RAD Studio\Projects\Queue.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.976,=C:\Users\User\Desktop\C++\Sem2\LR5\Unit6.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,C:\Users\User\Desktop\C++\Sem2\LR5\Unit1.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.079,C:\Users\User\Desktop\C++\Sem2\LR5\Project1.cbproj=C:\Users\User\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,C:\Users\User\Desktop\C++\Sem2\LR5\Unit1.dfm=C:\Users\User\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.943,C:\Users\User\Documents\RAD Studio\Projects\Queue.cpp=C:\Users\User\Documents\RAD Studio\Projects\Unit2.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="L5.res"/>
+    <File Path="Queue.cpp"/>
+    <File Path="Queue.cpp"/>
+    <File Path="Queue.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="List.cpp"/>
+    <File Path="List.cpp"/>
+    <File Path="List.h"/>
+    <File Path="Part.cpp"/>
+    <File Path="Part.cpp"/>
+    <File Path="Part.h"/>
+    <File Path="L5.cpp"/>
+  </ProjectSortOrder>
+</BorlandProject>
